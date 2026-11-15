@@ -78,7 +78,7 @@ android {
 
     defaultConfig {
         applicationId = "com.jarves.mh"
-        minSdk = 28
+        minSdk = 27
         // The direct APK retains the proven target-28 PRoot execution path. The
         // Play build targets current Android while its runtime path is validated.
         targetSdk = if (playBuild) 36 else 28
